@@ -1,0 +1,33 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables.scss';
+
+// Bootstrap
+@import '/node_modules/bootstrap/scss/bootstrap.scss';
+@import 'bootstrap/scss/bootstrap';
+
+// DataTables
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import "datatables.net-bs5/css/dataTables.bootstrap5.min.css";
+@import "datatables.net-buttons-bs5/css/buttons.bootstrap5.min.css";
+@import 'datatables.net-select-bs5/css/select.bootstrap5.css';
+.bx {
+  vertical-align: middle;
+  font-size: 1.15rem;
+  line-height: 1;
+}
+// Override font path    public\fonts\boxicons\boxicons.eot
+// @font-face {
+//   font-family: 'boxicons';
+//   font-weight: normal;
+//   font-style: normal;
+//
+//   src: url('/resources/fonts/boxicons/boxicons.eot');
+//   src: url('/resources/fonts/boxicons/boxicons.eot') format('embedded-opentype'),
+//     url('/resources/fonts/boxicons/boxicons.woff2') format('woff2'),
+//     url('/resources/fonts/boxicons/boxicons.woff') format('woff'),
+//     url('/resources/fonts/boxicons/boxicons.ttf') format('truetype'),
+//     url('/resources/fonts/boxicons/boxicons.svg?#boxicons') format('svg');
+// }
